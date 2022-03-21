@@ -1,0 +1,261 @@
+#personal {
+    width: 100%;
+    background:var(--bgmain);
+}
+
+.personal-container {
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+
+.personal_vip-container {
+    text-align: end;
+}
+
+.personal-head_vip-advanced,
+.personal-head_vip-code,
+.personal-head_vip-more {
+    padding: 5px 16px;
+    border-radius: 41px;
+    border: none;
+}
+
+.personal-head_vip-advanced:hover,
+.personal-head_vip-code:hover,
+.personal-head_vip-more:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.personal-head_vip-code,
+.personal-head_vip-more {
+    background: rgb(108 102 102 / 40%);
+    margin-left: 8px;
+}
+
+
+.personal-head_vip-advanced {
+    background: #f8e71c;
+    color: #000;
+}
+
+.personal-head_vip-advanced a,
+.personal-head_vip-code a{
+    font-size: 0.75rem;
+}
+
+.personal-head_vip-code a,
+.personal-head_vip-more i {
+    color: #fff;
+}
+
+.personal-info {
+    margin-bottom: 70px;
+}
+
+.personal-head_avatar {
+    text-align: center;
+}
+
+.personal-head_avatar img {
+    max-width: 96px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.personal-head_avatar h2 {
+    color: var(--h2colormain);
+}
+
+// option
+.personal_option-btn a:hover {
+    color: var(--aturquoise);
+}
+
+// personal wrapper
+.personal_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.personal_list-music {
+    display: flex;
+    align-items: center;
+}
+
+.personal_list-music:hover h2,
+.personal_list-music:hover i{
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.personal_list-music h2,
+.personal_list-music i {
+    font-size: 1.3rem;
+    color: var(--h2colormain);
+    margin-right: 5px;
+}
+
+.personal_btn-upload,
+.personal_btn-playall{
+    padding: 7px 20px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+}
+
+
+.personal_btn-upload:hover,
+.personal_btn-playall:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.personal_btn-upload {
+    background: rgba(108, 102, 102, 0.4);
+}
+
+.personal_btn-playall {
+    background: var(--aturquoise);
+    margin-left: 15px;
+}
+
+// personal list
+.personal_option {
+    margin-bottom: 45px;
+}
+
+.personal-main_songs {
+    display: flex;
+}
+
+.personal-main_songs-img {
+    margin-right: 20px;
+    max-width: 230px;
+}
+
+.personal-main_songs-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.personal-main_songs-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-bottom: 0.1px solid #cdc7c7;
+}
+
+.personal-main_songs-item:hover {
+    background: rgb(228 227 227 / 35%);
+}
+
+.personal-main_songs-item.active {
+    background: #92c2bb;
+}
+
+.personal-main_songs-list {
+    flex: 1;
+    max-height: 248px;
+    overflow: auto;
+}
+
+.personal-main_songs-info-img img {
+    max-width: 40px;
+    border-radius: 10px;
+}
+
+.personal-main_songs-info-img {
+    display: flex;
+    align-items: center;
+}
+
+.personal-main_songs-item.active .personal-main_songs-info-img {
+
+}
+
+.personal-main_songs-info-img img {
+    margin-right: 10px;
+}
+
+.personal-main_songs-info-name {
+    width: 340px;
+}
+
+.personal-main_songs-info-name h2 {
+    font-size: 1rem;
+    color: var(--h2colormain);
+    font-weight: 500;
+    cursor: context-menu;
+    max-width: 300px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+}
+
+.personal-main_songs-info-name span:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.personal-main_songs-info-name span,
+.personal-main_songs-info-time span {
+    font-size: 0.8rem;
+    color: #8e8b8b;
+}
+
+.personal-main_songs-info-option {
+    display: flex;
+}
+
+.personal-main_songs-info-option button {
+    background: transparent;
+    border: none;
+    color: rgb(178 173 173);
+    margin-right: 20px;
+    padding: 10px 12px;
+    border-radius: 50px;
+}
+
+.personal-main_songs-info-option button:hover {
+    cursor: pointer;
+    background: #565454;
+}
+
+.personal-main_songs-item.active .personal-main_songs-info-option button {
+    color: #fff;
+}
+
+@media (max-width: 1023px) {
+    .personal-main_songs-info-time {
+        display: none;
+    }
+}
+
+@media (max-width: 419px) {
+    .personal-main_songs-img {
+        max-width: 125px;
+    }
+    
+    .personal-main_songs-info-name {
+        width: 180px;
+    }
+
+    .personal-main_songs-info-name h2 {
+        font-size: 0.85rem;
+        max-width: 200px;
+    }
+
+    .newSong-name span {
+        font-size: 0.75rem;
+    }
+
+    .personal_list-music h2, .personal_list-music i {
+        font-size: 1rem;
+    }
+}

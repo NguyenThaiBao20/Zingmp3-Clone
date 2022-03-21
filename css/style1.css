@@ -1,0 +1,24 @@
+:root {
+    --bgmain: #ced9d9;
+    --h2colormain: #32323d;
+    --h3colormain: #43444e;
+    --spancolormain: #898c8c;
+    --spanblack: #272a2a;
+    --bgipmain: #dde4e4;
+    --amain: #3a385a;
+    --aturquoise: #27ab8c;
+    --bgitembtn: #e7ecec;
+    --sbbg: #dde4e4;
+    --sbtable: #becdcd;
+    --spanclsb: #303039;
+    --hdbg: #ced9d9;
+    --hdip: #e5eaea;
+    --hdfontcl: #8d9090;
+    --hdarrowcl: #b0b8ba;
+    --hdclbgbtn: #dde4e4;
+    --hdspan: #5d5e61;
+    --footerbg: #b4d0d0;
+    --footeri: #32323d;
+    --footerh2: #32323d;
+    --footerip: #a4bebe;
+}

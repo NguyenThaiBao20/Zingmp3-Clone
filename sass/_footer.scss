@@ -1,0 +1,239 @@
+#footer {
+    position: fixed;
+    z-index: 1001;
+    bottom: 0;
+    background: var(--footerbg);
+    width: 100%;
+    height: 89px;
+    border-top: 1px solid #e3dddd;
+    padding: 15px 20px;
+    cursor: pointer;
+}   
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.footer-title_cd {
+    width: 66px;
+    height: 66px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-position: center;
+    background-size: contain;
+}
+
+.footer-title_cd img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.footer-title_name {
+    margin-right: 20px;
+}
+
+.footer-title_name h2 {
+    font-size: 1rem;
+    color: var(--footerh2);
+    font-weight: 400;
+}
+
+.footer-title_name span {
+    font-size: 0.8rem;
+    color: #6f6f6f;
+}
+
+.footer-title_more {
+    display: flex;
+}
+
+.footer-title_more i {
+    font-size: 1rem;
+    color: var(--footeri);
+    cursor: pointer;
+}
+
+.footer-title_more-add {
+    margin-right: 20px;
+}
+
+.footer-directional {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-directional_container{
+    width: 100%;
+    text-align: center;
+}
+
+.directional_progress,
+.service_progress {
+    width: 100%;
+    max-width: 490px;
+    overflow: hidden;
+    // -webkit-appearance: none;
+    height: 2px;
+    background: var(--footerip);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+
+.directional_progress:hover,
+.service_progress:hover {
+    height: 6px;
+    cursor: pointer;
+}
+
+.directional_progress:hover::-webkit-slider-thumb,
+.service_progress:hover::-webkit-slider-thumb {
+    background: var(--primary-color);
+    box-shadow: -500px 0 0 500px var(--primary-color);
+}
+
+.directional_progress::-webkit-slider-thumb,
+.service_progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 12px;
+    height: 6px;
+    background: var(--primary-color);
+    box-shadow: -500px 0 0 500px var(--primary-color);
+}
+
+.footer-directional_control {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-directional_control i {
+    font-size: 1.2rem;
+    color: var(--footeri);
+    cursor: pointer;
+}
+
+.footer-directional_control-random.active i,
+.footer-directional_control-repeat.active i{
+    color: #598abd;
+} 
+
+.footer-pause {
+    display: none;
+}
+
+.footer-directional_control-play.active .footer-pause {
+    display: block;
+    font-size: 1.5rem;
+}
+
+
+.footer-directional_control-play.active .footer-play {
+    display: none;
+}
+
+.footer-service {
+    // width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.footer-service-list {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-service i {
+    font-size: 1.2rem;
+    color: var(--footeri);
+    cursor: pointer;
+}
+
+.footer-service_mv {
+
+}
+
+.footer-service_mobile {
+    display: none;
+}
+
+@media (max-width: 1099px) {
+    .footer-title_name h2{
+        font-size: 0.8rem;
+    }
+
+    .footer-title_more {
+        display: none;
+    }
+
+    .footer-service_mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-service_mobile-volumn {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-service-list {
+        display: none;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .footer-title {
+        min-width: 230px;
+    }
+
+    .footer-service_mobile-volumn input {
+        display: none;
+    }
+}
+
+@media (max-width: 399px) {
+    #footer {
+        padding: 0px 15px 10px 15px;
+    }
+
+    .footer {
+        justify-content: start;
+    }
+
+    .footer-title {
+        min-width: 185px;
+    }
+
+    .footer-title_cd {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pad-left-right-10 {
+        padding: 0 10px;
+    }
+
+    .footer-service_mobile-btn {
+        display: none;
+    }
+
+    .footer-service {
+        display: none;
+    }
+}

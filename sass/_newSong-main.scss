@@ -1,0 +1,145 @@
+#newSong {
+    width: 100%;
+    background: var(--bgmain);
+}
+
+.newSong {
+    padding-top: 120px;
+    padding-bottom: 160px;
+    // background-image: url(/image/background/newsong.jpg);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-attachment: fixed;
+}
+
+.newSong_head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.newSong_head-title {
+    font-size: 2.5rem;
+    color: var(--aturquoise);    
+    margin-right: 8px;
+}
+
+.newSong_head-btn {
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    background: var(--aturquoise);
+    color: #fff;
+}
+
+.newSong_head-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.newSong-item-info img{
+    margin-right: 30px;
+}
+
+.newSong_item-info-competition {
+    display: grid;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.newSong_item-info-competition span {
+    margin-right: 18px;
+    color: #fff;
+}
+
+.newSong_item-info-competition i {
+    color: #1dc186;
+}
+
+.lib-img {
+    position: relative;
+    margin-right: 12px;
+}
+
+.lib-img img {
+    margin-right: 0;
+    border-radius: 5px;
+}
+
+.lib-img-opa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 5px;
+    display: none;
+}
+
+.newSong_item:hover .lib-img-opa {
+    display: flex;
+    cursor: pointer;
+}
+
+.newSong-name span{
+    font-size: 0.8rem;
+    color: var(--spancolormain);
+    font-weight: 500;
+}
+
+@media (max-width: 419px) {
+    .newSong {
+        padding: 70px 10px 160px 10px;
+    }
+
+    .newSong_head {
+        margin-top: 20px;
+    }
+
+    .newSong_head-title {
+        font-size: 1.2rem;
+    }
+
+    .personal-main_songs-info-time {
+        display: none;
+    }
+
+    .personal-main_songs-info-option button {
+        margin-right: 0px;
+    }
+
+    .personal-main_songs-info-img > h2{
+        font-size: 1rem;
+        // margin-right: 0px;
+        font-family: 'Press Start 2P', cursive;
+        // width: 38px;
+        text-align: center;
+    }
+
+    .personal-main_songs-info-img img {
+        max-width: 30px;
+    }
+
+    .lib-img img {
+        max-width: 40px;
+    }
+
+    .newSong-item-info img {
+        margin-right: 15px;
+    }
+
+    .lib-img {
+        margin-right: 0px;
+    }
+
+    .personal-main_songs-info-option {
+        display: none;
+    }
+}

@@ -1,0 +1,188 @@
+#follow-main {
+    width: 100%;
+    background-color: var(--bgmain);
+}
+
+.follow-main {
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+.follow-main_nation {
+    display: flex;
+    justify-content: center;
+}
+
+.follow-main_nation-list {
+    display: flex;
+    justify-content: center;
+}
+
+.follow-main_nation-list {
+    background: var(--bgipmain);
+    padding: 2px 2px;
+    border-radius: 30px;
+}
+
+.follow-main_nation-item {
+    padding: 1px 1px;
+}
+
+.follow-main_nation-btn {
+    padding: 6px 29px;
+    border-radius: 43px;
+    border: none;
+    background: transparent;
+}
+
+.follow-main_nation-btn a {
+    color: var(--amain);
+}
+
+.follow-main_nation-btn.active {
+    background: var(--bgitembtn);
+}
+
+.follow-main_nation-btn.active a {
+    color:var(--aturquoise);
+}
+
+// follow singer
+.follow-singer-list button {
+    display: none !important;
+}
+
+.follow-singer-item a img{
+    max-width: 230px;
+}
+
+.follow-main_news-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(306px, 1fr));
+    grid-gap: 20px;
+}
+
+.follow-main_news-item {
+    background-color:var(--bgipmain);
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.follow-main_news-item-container {
+    padding: 20px 20px;
+}
+
+.follow-main_news-item-info {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.follow-main_news-item-info--img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.follow-main_news-item-info--img img {
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.follow-main_news-item-info--name div a {
+    font-size: 0.9rem;
+    color: var(--amain);
+    margin-right: 22px;
+}
+
+.follow-main_news-item-info--name div a:hover,
+.news-item-info-clock span:hover {
+    color: #c25cc5;
+    cursor: pointer;
+}
+
+.follow-main_news-item-info--name div button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--aturquoise);
+}
+
+.follow-main_news-item-info--name div button:hover {
+    opacity: 0.8;
+}
+
+.news-item-info-clock span{
+    color: #727272;
+    font-size: 0.8rem;
+}
+
+.follow-main_news-item-title {
+    margin-bottom: 15px;
+}
+
+.follow-main_news-item-title span {
+    color: var(--spanblack);
+    font-size: 0.9rem;
+}
+
+.follow-main_news-item-img {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.follow-main_news-item-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.follow-main_news-item-interact button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.follow-main_news-item-interact button:first-child {
+    margin-right: 30px;
+}
+
+@media (max-width: 419px) {
+    .main-container {
+        padding: 0 10px 0 10px;
+    }
+
+    .follow-main_news-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+    }
+
+    .follow-singer-item a img {
+        width: 100%;
+    }
+
+    .follow-main_nation-btn {   
+        padding: 6px 6px;
+    }
+
+    .follow-main_nation-btn a {
+        display: block;
+    }
+    
+    .personal_option-btn {
+        font-size: 0.6rem;
+    }
+
+    .personal-vip {
+        margin-bottom: 30px;
+    }
+
+    .personal_list-music h2 {
+        font-size: 1rem;
+        margin-right: 5px;
+    }
+}

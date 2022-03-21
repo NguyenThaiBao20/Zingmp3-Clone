@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zing MP3 | Nghe tải nhạc chất lượng cao trên desktop, mobile và TV</title>
+    <link rel="icon" href="./image/icons8-musical-64.png">
+    
+
+
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <!-- sidebar -->
+        <section id="sidebar">
+            <div class="sidebar">
+                <div class="logo_container">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./image/logo-mp3.svg" alt="logo">
+                            <!-- <span>Zing mp3</span> -->
+                        </a>
+                    </div>
+                    <div class="menu-icon">
+                        <button class="btn menu-links">
+                            <img src="./image/menu.png" alt="menu">
+                        </button>
+                    </div>
+                    <!-- btn close menu mobile` -->
+                    <div class="btn-close-menu-mobile">
+                        <button id="btn-close-menu">
+                            <i class="fas fa-arrow-alt-circle-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="sidebar-menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="./personal.html"><img src="./image/icons8-play-64.png" alt="ca nhan"><span>Cá Nhân</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/khampha.png" alt=""><span>Khám phá</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/zingchat.png" alt=""><span>#zingchart</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/radio.png" alt=""><span>Radio</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./follow.html"><img src="./image/theodoi.png" alt=""><span>Theo dõi</span></a>
+                        </li>
+                    </ul>
+                    <!-- model lib -->
+                    <ul class="menu-list menu-lib">
+                        <li class="menu-item">
+                            <a href="./newsong.html"> <img src="./image/nhacmoi.png" alt=""><span>Nhạc Mới</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/theloai.png" alt=""><span>Thể Loại</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/top100.png" alt=""><span>Top 100</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/mv.png" alt=""><span>MV</span></a>
+                        </li>
+                        <div class="menu-vip">
+                            <span>Nghe nhạc không quảng cáo cùng kho nhạc VIP</span>
+                            <div>
+                                <a class="btn" href="">Mua VIP</a>
+                            </div>
+                        </div>
+                        <li class="title">
+                            <span>THƯ VIỆN</span>
+                            <button class="btn-active-model-lib" href=""><img src="./image/icons8-pen-48.png" alt=""></button>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">  <img src="./image/thuviencanhan/baihat.png" alt="" /><span>Bài hát</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/thuviencanhan/playlist.png" alt="" /><span>Playlist</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/thuviencanhan/ganday.png" alt="" /><span>Gần đây</span></a>
+                        </li>
+                    </ul>
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href=""><img src="./image/plus.png" alt=""><span>Tạo playlist mới</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- seach login -->
+        <section id="header">
+            <div class="nav">
+                <div class="nav-search">
+                    <div class="nav-search_arrow">
+                        <button class="nav-search_arrow-icon">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <button class="nav-search_arrow-icon">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="nav-search-wrapper">
+                        <div class="nav-search-item">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <input type="text" class="nav-search-input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                        <!-- history search -->
+                        <div class="nav-search-history">
+                            <ul class="nav-search-history_list">
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Bằng Cường</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Phan Đình Từng</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Cao Thái Sơn</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Mr. Siro</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-login">
+                    <ul class="nav-login-list">
+                        <li class="nav-login-item">
+                            <button id="login" class="nav-login-item-btn">
+                                <img src="./image/chude.png" alt="chu de">
+                            </button>
+                            <span class="nav-login-item--note">chủ đề</span>
+                        </li>
+                        <li class="nav-login-item">
+                            <button class="nav-login-item-btn">
+                                <img src="./image/upload.png" alt="chu de">
+                            </button>
+                            <span class="nav-login-item--note">tải lên</span>
+                        </li>
+                        <li class="nav-login-item">
+                            <button class="nav-login-item-btn nav-setting">
+                                <img src="./image/setting.png" alt="chu de">
+                            </button>
+                            <span class="nav-login-item--note">cài đặt</span>
+                            <ul class="nav-login-item_setting-list">
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-skull-crossbones"></i>
+                                        <span>Danh sách chặn</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fab fa-accessible-icon"></i>
+                                        <span>Chất lượng nhạc</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="far fa-play-circle"></i>
+                                        <span>Trình phát nhạc</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <span>Giới thiệu</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-flag"></i>
+                                        <span>Góp ý</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-phone"></i>
+                                        <span>Liên hệ</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-ad"></i>
+                                        <span>Quảng cáo</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="far fa-file-word"></i>
+                                        <span>Thỏa thuận sử dụng</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <span>Chính sách bảo mật</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-login-item">
+                            <button class="nav-login-item-btn">
+                                <img src="./image/icons8-user-64.png" alt="chu de">
+                            </button>
+                            <span class="nav-login-item--note">chủ đề</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-mobile">
+                <button id="btn-menu-moblie">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- main -->
+        <section id="main">
+            <div class="discover-main main-container">
+                <!-- slider -->
+                <div class="main-slider">
+                    <!-- <div class="btn-slider">
+                        <button class="btn-slider-next">
+                            <i class="fas fa-chevron-left prev"></i>
+                        </button>
+                        <button class="btn-slider-prev">
+                            <i class="fas fa-chevron-right next"></i>
+                        </button>
+                    </div> -->
+
+                    <div class="clazy-slider main-slider-img-container">
+                        <div class="main-slider-img-item">
+                            <img src="./image/slider/slider1.jpg" alt="">
+                        </div>
+                        <div class="main-slider-img-item">
+                            <img src="./image/slider/slider2.jpg" alt="">
+                        </div>
+                        <div class="main-slider-img-item">
+                            <img src="./image/slider/slider3.jpg" alt="">
+                        </div>
+
+                        <div class="main-slider-img-item">
+                            <img src="./image/slider/slider4.jpg" alt="">
+                        </div>
+
+                        <div class="main-slider-img-item">
+                            <img src="./image/slider/slider5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- End slider -->
+
+                <!-- advan -->
+                <div class="main-advan padtop-48 padrl-15">
+                    <img src="./image/quangcao.png" alt="">
+                </div>
+                <!-- End advan -->
+
+                <!-- Choose List Music -->
+                <!-- current -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title">
+                            <h2>Gần Đây</h2>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="main-music_head-control">
+                            <button>
+                                <i class="fas fa-chevron-left prev-list-current"></i>
+                            </button>
+                            <button>
+                                <i class="fas fa-chevron-right next-list-current"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="list-current" class="clazy-current main-music_list">
+                    
+                    </div>
+                </div>
+
+                <!-- Can -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-can">
+                            <h2>Có Thể Bạn Muốn Nghe</h2>
+                        </div>
+                        <div class="main-music_head-control">
+                            <button>
+                                <i class="fas fa-chevron-left prev-list-can"></i>
+                            </button>
+                            <button>
+                                <i class="fas fa-chevron-right next-list-can"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="list-can" class="clazy-can main-music_list">
+                        
+                    </div>
+                </div>
+
+                <!-- Color music -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-color">
+                            <h2>Sắc Màu Âm Nhạc</h2>
+                        </div>
+                        <!-- <div class="main-music_head-control">
+                            <button>
+                                <i class="fas fa-chevron-left prev-list-can"></i>
+                            </button>
+                            <button>
+                                <i class="fas fa-chevron-right next-list-can"></i>
+                            </button>
+                        </div> -->
+                    </div>
+                    <div id="list-color" class="clazy-color main-music_list">
+                  
+                    </div>
+                </div>
+
+                <!-- Xone's corner -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-corner">
+                            <h2>XONE's CORNER</h2>
+                        </div>
+                    </div>
+                    <div id="list-corner" class="clazy-corner main-music_list">
+                    
+                    </div>
+                </div>
+
+                <!-- Radio special -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-radio">
+                            <h2>Radio Nổi Bật</h2>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div id="list-radio" class="clazy-radio main-music_list">
+
+                    </div>
+                </div>
+
+                <!-- Mix Rieng -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-mix">
+                            <h2>Mix Riêng Cho Bạn</h2>
+                        </div>
+                    </div>
+                    <div id="list-mix" class="clazy-mix main-music_list">
+                   
+                    </div>
+                </div>
+
+                <!-- Heard -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-heard">
+                            <div class="Choose-list-heard-img">
+                                <img src="./image/heared/heared0.png" alt="">
+                            </div>
+                            <div class="Choose-list-heard-title">
+                                <div class="Choose-list-heard-title-head">
+                                    <h4>VÌ BẠN ĐÃ NGHE</h4>
+                                </div>
+                                <div class="Choose-list-heard-title-sing">
+                                    <h3>CAO THÁI SƠN</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-music_head-control">
+                            <button>
+                                <i class="fas fa-chevron-left prev-list-heard"></i>
+                            </button>
+                            <button>
+                                <i class="fas fa-chevron-right next-list-heard"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="list-heard" class="clazy-heard main-music_list">
+                 
+                    </div>
+                </div>
+
+                <!-- New song every day -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-new">
+                            <h2>Nhạc Mới Mỗi Ngày</h2>
+                        </div>
+                    </div>
+                    <div id="list-newsd" class="clazy-new main-music_list">
+             
+                    </div>
+                </div>
+
+                <!-- #Zingchart -->
+                <div class="main-zchart margin-30 marginlr-15">
+                    <div class="main-zchart-container">
+                        <div class="main-zchart-header">
+                            <h2>
+                                #zingchart
+                                <i class="fas fa-play-circle"></i>
+                            </h2>
+                        </div>
+                        <div class="main-zchart_body">
+                            <div class="main-zchart_body-top">
+                                <div class="main-zchart_body-top-list">
+                                    <div class="main-zchart_body-top-item">
+                                        <div>
+                                            <h3>1</h3>
+                                            <div class="main-zchart_body-play">
+                                                <img src="./image/zingchart0.png" alt="">
+                                                <div class="main-zchart_body-play-icon">
+                                                    <button>
+                                                        <i class="fas fa-play"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="main-zchart_body-top-item-titel">
+                                                <span>Tan Vỡ</span>
+                                                <h4>Chi Dân</h4>
+                                            </div>
+                                        </div>
+                                        <div class="main-zchart_body-top-percent">
+                                            <h2>40%</h2>
+                                        </div>
+                                    </div>
+                                    <div class="main-zchart_body-top-item">
+                                        <div>
+                                            <h3>1</h3>
+                                            <div class="main-zchart_body-play">
+                                                <img src="./image/zingchart1.png" alt="">
+                                                <div class="main-zchart_body-play-icon">
+                                                    <button>
+                                                        <i class="fas fa-play"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="main-zchart_body-top-item-titel">
+                                                <span>Tan Vỡ</span>
+                                                <h4>Chi Dân</h4>
+                                            </div>
+                                        </div>
+                                        <div class="main-zchart_body-top-percent">
+                                            <h2>40%</h2>
+                                        </div>
+                                    </div>
+                                    <div class="main-zchart_body-top-item">
+                                        <div>
+                                            <h3>1</h3>
+                                            <div class="main-zchart_body-play">
+                                                <img src="./image/zingchart2.png" alt="">
+                                                <div class="main-zchart_body-play-icon">
+                                                    <button>
+                                                        <i class="fas fa-play"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="main-zchart_body-top-item-titel">
+                                                <span>Tan Vỡ</span>
+                                                <h4>Chi Dân</h4>
+                                            </div>
+                                        </div>
+                                        <div class="main-zchart_body-top-percent">
+                                            <h2>40%</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-zchart_body-map">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Zingchart week -->
+                <div class="main-zingweek margin-30 marginlr-15">
+                    <div class="main-zingweek_VN">
+                        <h3>#ZINGCHAR TUẦN</h3>
+                        <h2>BÀI HÁT VIỆT NAM</h2>
+                    </div>
+                    <div class="main-zingweek_US">
+                        <h3>#ZINGCHAR TUẦN</h3>
+                        <h2>US-UK</h2>
+                    </div>
+                    <div class="main-zingweek_KPOP">
+                        <h3>#ZINGCHAR TUẦN</h3>
+                        <h2>K-POP</h2>
+                    </div>
+                </div>
+
+                <!-- Singer -->
+                <div class="main-singer main-music ">
+                    <div class="singer-btn padrl-15">
+                        <button class="btn singer-btn-prev">
+                            <i class="fas fa-chevron-left prev-singer"></i>
+                        </button>
+                        <button class="btn singer-btn-next">
+                            <i class="fas fa-chevron-right next-singer"></i>
+                        </button>
+                    </div>
+                    <div id="list-singer" class="clazy-singer main-music_list">
+              
+                    </div>
+                </div>
+
+
+                <!-- Top 100 -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-top100">
+                            <h2>Top 100</h2>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="main-music_head-control">
+                            <button>
+                                <i class="fas fa-chevron-left prev-list-top100"></i>
+                            </button>
+                            <button>
+                                <i class="fas fa-chevron-right next-list-top100"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="list-top100" class="clazy-top100 main-music_list">
+          
+                    </div>
+                </div>
+
+                <!-- Mixtape like -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-mixtape">
+                            <h2>Nhạc Mới Mỗi Ngày</h2>
+                        </div>
+                    </div>
+                    <div class="clazy-mixtape main-music_list">
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/mixtape0.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play fonts-2-4rem">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/mixtape1.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Because you takecare -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-care">
+                            <div class="Choose-list-care-img">
+                                <img src="./image/bctake0.png" alt="">
+                            </div>
+                            <div class="Choose-list-care-title">
+                                <div class="Choose-list-care-title-head">
+                                    <h4>VÌ BẠN ĐÃ QUAN TÂM</h4>
+                                </div>
+                                <div class="Choose-list-care-title-sing">
+                                    <h3>CAO THÁI SƠN</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-music_head-control">
+                            <button>
+                                <i class="fas fa-chevron-left prev-list-care"></i>
+                            </button>
+                            <button>
+                                <i class="fas fa-chevron-right next-list-care"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="clazy-care main-music_list">
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bctake0.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bctake1.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bctake2.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bctake3.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bctake4.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/current2.jpg" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Because you heard more -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-care">
+                            <div class="Choose-list-care-img">
+                                <img src="./image/bcheard0.png" alt="">
+                            </div>
+                            <div class="Choose-list-care-title">
+                                <div class="Choose-list-heard-title-care">
+                                    <h4>VÌ BẠN ĐÃ NGHE</h4>
+                                </div>
+                                <div class="Choose-list-care-title-sing">
+                                    <h3>CAO THÁI SƠN</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-music_head-control">
+                            <button>
+                                <i class="fas fa-chevron-left prev-list-care"></i>
+                            </button>
+                            <button>
+                                <i class="fas fa-chevron-right next-list-care"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="clazy-care main-music_list">
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bcheard0.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bcheard1.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bcheard2.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bcheard3.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/bcheard4.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/current2.jpg" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New release demo-->
+                <div class="main-music padtop-48">
+                    <div class="main-music_head padrl-15">
+                        <div class="main-music_head-title Choose-list-newrl">
+                            <h2>Mới Phát Hành</h2>
+                        </div>
+                        <div class="main-music_head-control">
+                            <button>
+                                <i class="fas fa-chevron-left prev-list-newrl"></i>
+                            </button>
+                            <button>
+                                <i class="fas fa-chevron-right next-list-newrl"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="clazy-newrl main-music_list">
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newdemo0.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <div class="main-music_item-title-view">
+                                    <h3>Cưa Là Đổ</h3>
+                                    <span>Phát Hồ, X2X</span>
+                                </div>
+                                <div class="main-music_item-title-time">
+                                    <h2>#4</h2>
+                                    <span>17.10.2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newdemo1.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <div class="main-music_item-title-view">
+                                    <h3>Cưa Là Đổ</h3>
+                                    <span>Phát Hồ, X2X</span>
+                                </div>
+                                <div class="main-music_item-title-time">
+                                    <h2>#4</h2>
+                                    <span>17.10.2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newdemo2.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <div class="main-music_item-title-view">
+                                    <h3>Cưa Là Đổ</h3>
+                                    <span>Phát Hồ, X2X</span>
+                                </div>
+                                <div class="main-music_item-title-time">
+                                    <h2>#4</h2>
+                                    <span>17.10.2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newdemo1.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <div class="main-music_item-title-view">
+                                    <h3>Cưa Là Đổ</h3>
+                                    <span>Phát Hồ, X2X</span>
+                                </div>
+                                <div class="main-music_item-title-time">
+                                    <h2>#4</h2>
+                                    <span>17.10.2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newdemo2.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <div class="main-music_item-title-view">
+                                    <h3>Cưa Là Đổ</h3>
+                                    <span>Phát Hồ, X2X</span>
+                                </div>
+                                <div class="main-music_item-title-time">
+                                    <h2>#4</h2>
+                                    <span>17.10.2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New release list -->
+                <div class="main-music padtop-48">
+                    <div class="clazy-new main-music_list">
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newrealese0.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newrelease2.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newrelease3.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newreleases4png.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newreleases5.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                        <div class="main-music_item">
+                            <div class="main-music_item-img">
+                                <img src="./image/newreleases6.png" alt="">
+                                <div class="main-music_item-img-choose">
+                                    <button class="main-music_item-img-choose-add">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-play">
+                                        <i class="far fa-play-circle"></i>
+                                    </button>
+                                    <button class="main-music_item-img-choose-more">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="main-music_item-title">
+                                <h3>Những bài hát hay nhất của</h3>
+                                <span>Cao Thái Sơn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Favorite Artist -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_favorite-list">
+                        <div class="main-music_favorite-item">
+                            <div class="main-music_favorite-item-play">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="main-music_favorite-item-container">
+                                <div class="main-music_favorite-item-title">
+                                    <span>BẠN ĐÃ QUAN TÂM</span>
+                                    <h2>Bằng Cường</h2>
+                                </div>
+                                <div class="clazy-favorite main-music_favorite-item-list">
+                                    <div class="main-music_favorite-item-list-img">
+                                        <img src="./image/current2.jpg" alt="">
+                                    </div>
+                                    <div class="main-music_favorite-item-list-img">
+                                        <img src="./image/current2.jpg" alt="">
+                                    </div>
+                                    <div class="main-music_favorite-item-list-img">
+                                        <img src="./image/current2.jpg" alt="">
+                                    </div>
+                                    <div class="main-music_favorite-item-list-img">
+                                        <img src="./image/current2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-music_favorite-item">
+                            <div class="main-music_favorite-item-play">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="main-music_favorite-item-container">
+                                <div class="main-music_favorite-item-title">
+                                    <span>BẠN ĐÃ QUAN TÂM</span>
+                                    <h2>Bằng Cường</h2>
+                                </div>
+                                <div class="clazy-favorite main-music_favorite-item-list">
+                                    <div class="main-music_favorite-item-list-img">
+                                        <img src="./image/current2.jpg" alt="">
+                                    </div>
+                                    <div class="main-music_favorite-item-list-img">
+                                        <img src="./image/current2.jpg" alt="">
+                                    </div>
+                                    <div class="main-music_favorite-item-list-img">
+                                        <img src="./image/current2.jpg" alt="">
+                                    </div>
+                                    <div class="main-music_favorite-item-list-img">
+                                        <img src="./image/current2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- footer -->
+                <div class="main-music padtop-48">
+                    <div class="main-music_footer">
+                        <div class="main-music_footer-title">
+                            <h3>ĐỐI TÁC ÂM NHẠC</h3>
+                        </div>
+                        <div class="main-music_footer-list">
+                            <div class="main-music_footer-item">
+                                <img src="./image/partner/partner0.png" alt="">
+                            </div>
+                            <div class="main-music_footer-item">
+                                <img src="./image/partner/partner1.png" alt="">
+                            </div>
+                            <div class="main-music_footer-item">
+                                <img src="./image/partner/partner2.png" alt="">
+                            </div>
+                            <div class="main-music_footer-item">
+                                <img src="./image/partner/partner3.png" alt="">
+                            </div>
+                            <div class="main-music_footer-item">
+                                <img src="./image/partner/partner4.png" alt="">
+                            </div>
+                            <div class="main-music_footer-item">
+                                <img src="./image/partner/partner5.png" alt="">
+                            </div>
+                            <div class="main-music_footer-item">
+                                <img src="./image/partner/partner6.png" alt="">
+                            </div>
+                            <div class="main-music_footer-item">
+                                <img src="./image/partner/partner7.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Choose List Music -->
+
+
+            </div>
+        </section>
+
+        <!-- footer/control music  -->
+        <footer id="footer"> 
+            <div class="footer">
+                <div class="footer-title">
+                    <div class="footer-title_cd">
+                        <img src="./image/newreleases6.png" alt="">
+                    </div>
+                    <div class="footer-title_name">
+                        <h2>Điều Ngọt Ngào Nhất</h2>
+                        <span>Cao Thái Sơn</span>
+                    </div>
+                    <div class="footer-title_more">
+                        <div class="footer-title_more-add">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div class="footer-title_more-seemore">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-directional">
+                    <div class="footer-directional_container">
+                        <div class="footer-directional_control">
+                            <div class="footer-directional_control-random pad-15 pad-left-right-10">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div class="footer-directional_control-prev pad-15 pad-left-right-10">
+                                <i class="fas fa-step-backward"></i>
+                            </div>
+                            <div class="footer-directional_control-play pad-15 pad-left-right-10">
+                                <i class="far fa-play-circle footer-pause"></i>
+                                <i class="fas fa-play icon-play footer-play"></i>
+                            </div>
+                            <div class="footer-directional_control-next pad-15 pad-left-right-10">
+                                <i class="fas fa-step-forward"></i>
+                            </div>
+                            <div class="footer-directional_control-repeat pad-15 pad-left-right-10">
+                                <i class="fas fa-redo"></i>
+                            </div>
+                        </div>
+                        <input id="directional_progress" class="directional_progress" type="range" value="0" step="1" min="0" max="100">
+                    </div>
+                </div>
+                <div class="footer-service">
+                    <div class="footer-service_mv pad-10">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <div class="footer-service_karaoke pad-10">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="footer-service_windown pad-10">
+                        <i class="far fa-window-restore"></i>
+                    </div>
+                    <div class="footer-service_volumn pad-10">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <div class="footer-service_progress pad-10">
+                        <input id="service_progress" class="service_progress" type="range" value="0" step="1" min="0" max="100">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- model Lib-->
+        <section id="model-menu-lib">
+            <div class="model-menu-lib">
+                <div class="model-menu-lib_title">
+                    <h2>Thư Viện Cá Nhân</h2>
+                    <span>Bạn có thể tùy chỉnh danh sách thư viện cá nhân.</span>
+                </div>
+                <ul class="model-menu-lib_list">
+                    <li class="model-menu-lib_list-item"> <input type="checkbox" />
+                        <img src="./image/thuviencanhan/baihat.png" alt="" />
+                        <span>Bài hát</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/playlist.png" alt="" />
+                        <span>Playlist</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/album.png" alt="" />
+                        <span>Album</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/tailen.png" alt="" />
+                        <span>Nhạc tải lên</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/ganday.png" alt="" />
+                        <span>Gần đây</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/playlistcanhan.png" alt="" />
+                        <span>Playlist cá nhân</span>
+                    </li>
+                </ul>
+                <div class="btn-container">
+                    <button class="btn btn-model-lib_close">ĐÓNG</button>
+                    <button class="btn btn-model-lib_save">LƯU</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- model main slider -->
+        <section class="model-slider_list">
+            <div class="model-slider_list-container">
+                <div class="model-slider_list-title">
+                    <span>Bạn có muốn phát bài hat này? Danh sách phát hiện tại sẽ bị thay thế</span>
+                </div>
+                <div class="model-slider_list-content">
+                    <img src="./image/current2.jpg" alt="">
+                    <h4>Welcome to Show</h4>
+                    <span>B Ray, Great</span>
+                </div>
+                <div class="model-slider_list-btn-container">
+                    <button class="model-slider_list-btn-play">
+                        PHÁT BÀI HÁT
+                    </button>
+                    <button class="model-slider_list-btn-add">THÊM VÀO DANH SÁCH PHÁT</button>
+                    <button class="model-slider_list-btn-close">BỎ QUA</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- model nav-login -->
+        <section id="model-login">
+            <div class="model-login_container">
+                
+            </div>
+        </section>
+
+    </div>
+
+
+    <script type="text/javascript" src="./js/jquery-3.0.1.min.js"></script>
+
+    <script type="text/javascript" src="./js/slick.js"></script>
+    
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script src="./js/main-choose-slider.js"></script>
+</body>
+
+</html>

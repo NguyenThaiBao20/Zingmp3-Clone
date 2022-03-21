@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhạc cá nhân | Xem bài hát, album, MV đang hot nhất hiện tại</title>
+    <link rel="icon" href="./image/icons8-musical-64.png">
+
+
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <!-- sidebar -->
+        <section id="sidebar">
+            <div class="sidebar">
+                <div class="logo_container">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./image/logo-mp3.svg" alt="logo">
+                            <!-- <span>Zing mp3</span> -->
+                        </a>
+                    </div>
+                    <div class="menu-icon">
+                        <button class="btn menu-links">
+                            <img src="./image/menu.png" alt="menu">
+                        </button>
+                    </div>
+                     <!-- btn close menu mobile` -->
+                     <div class="btn-close-menu-mobile">
+                        <button id="btn-close-menu">
+                            <i class="fas fa-arrow-alt-circle-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="sidebar-menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="./personal.html"><img src="./image/icons8-play-64.png" alt="ca nhan"><span>Cá
+                                    Nhân</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./index.html"><img src="./image/khampha.png" alt=""><span>Khám phá</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/zingchat.png" alt=""><span>#zingchart</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/radio.png" alt=""><span>Radio</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./follow.html"><img src="./image/theodoi.png" alt=""><span>Theo dõi</span></a>
+                        </li>
+                    </ul>
+                    <!-- model lib -->
+                    <ul class="menu-list menu-lib">
+                        <li class="menu-item">
+                            <a href="./newsong.html"> <img src="./image/nhacmoi.png" alt=""><span>Nhạc Mới</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/theloai.png" alt=""><span>Thể Loại</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/top100.png" alt=""><span>Top 100</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/mv.png" alt=""><span>MV</span></a>
+                        </li>
+                        <div class="menu-vip">
+                            <span>Nghe nhạc không quảng cáo cùng kho nhạc VIP</span>
+                            <div>
+                                <a class="btn" href="">Mua VIP</a>
+                            </div>
+                        </div>
+                        <li class="title">
+                            <span>THƯ VIỆN</span>
+                            <button class="btn-active-model-lib" href=""><img src="./image/icons8-pen-48.png"
+                                    alt=""></button>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""> <img src="./image/thuviencanhan/baihat.png" alt="" /><span>Bài hát</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/thuviencanhan/playlist.png" alt="" /><span>Playlist</span></a>
+                        </li>
+                        <li class="menu-item">
+                            <a href=""><img src="./image/thuviencanhan/ganday.png" alt="" /><span>Gần đây</span></a>
+                        </li>
+                    </ul>
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href=""><img src="./image/plus.png" alt=""><span>Tạo playlist mới</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- seach login -->
+        <section id="header">
+            <div class="nav">
+                <div class="nav-search">
+                    <div class="nav-search_arrow">
+                        <button class="nav-search_arrow-icon">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <button class="nav-search_arrow-icon">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="nav-search-wrapper">
+                        <div class="nav-search-item">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <input type="text" class="nav-search-input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                        <!-- history search -->
+                        <div class="nav-search-history">
+                            <ul class="nav-search-history_list">
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Bằng Cường</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Phan Đình Từng</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Cao Thái Sơn</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-search"></i>
+                                    <span>Mr. Siro</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-login">
+                    <ul class="nav-login-list">
+                        <li class="nav-login-item">
+                            <button id="login" class="nav-login-item-btn">
+                                <img src="./image/chude.png" alt="chu de">
+                            </button>
+                            <span class="nav-login-item--note">chủ đề</span>
+                        </li>
+                        <li class="nav-login-item">
+                            <button class="nav-login-item-btn">
+                                <img src="./image/upload.png" alt="chu de">
+                            </button>
+                            <span class="nav-login-item--note">tải lên</span>
+                        </li>
+                        <li class="nav-login-item">
+                            <button class="nav-login-item-btn nav-setting">
+                                <img src="./image/setting.png" alt="chu de">
+                            </button>
+                            <span class="nav-login-item--note">cài đặt</span>
+                            <ul class="nav-login-item_setting-list">
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-skull-crossbones"></i>
+                                        <span>Danh sách chặn</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fab fa-accessible-icon"></i>
+                                        <span>Chất lượng nhạc</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="far fa-play-circle"></i>
+                                        <span>Trình phát nhạc</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <span>Giới thiệu</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-flag"></i>
+                                        <span>Góp ý</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-phone"></i>
+                                        <span>Liên hệ</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-ad"></i>
+                                        <span>Quảng cáo</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="far fa-file-word"></i>
+                                        <span>Thỏa thuận sử dụng</span>
+                                    </a>
+                                </li>
+                                <li class="nav-login-item_setting-item">
+                                    <a href="#">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <span>Chính sách bảo mật</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-login-item">
+                            <button class="nav-login-item-btn">
+                                <img src="./image/icons8-user-64.png" alt="chu de">
+                            </button>
+                            <span class="nav-login-item--note">chủ đề</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-mobile">
+                <button id="btn-menu-moblie">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- main -->
+        <section id="personal">
+            <div class="main-container personal-container">
+                <!-- vip -->
+                <div class="personal-vip">
+                    <div class="personal_vip-container">
+                        <button class="personal-head_vip-advanced">
+                            <a href="">NÂNG CẤP VIP</a>
+                        </button>
+                        <button class="personal-head_vip-code">
+                            <a href="">NHẬP CODE VIP</a>
+                        </button>
+                        <button class="personal-head_vip-more">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- avatar -->
+                <div class="personal-info">
+                    <div class="personal-head_avatar">
+                        <img src="./image/bcheard0.png" alt="">
+                        <h2>Thai Bao</h2>
+                    </div>
+                </div>
+
+                <!-- choose Category -->
+                <div class="personal_option follow-main_nation">
+                    <ul class="follow-main_nation-list">
+                        <li class="follow-main_nation-item">
+                            <button class="follow-main_nation-btn active personal_option-btn">
+                                <a href="">TỔNG QUAN</a>
+                            </button>
+                        </li>
+                        <li class="follow-main_nation-item">
+                            <button class="follow-main_nation-btn personal_option-btn">
+                                <a href="">BÀI HÁT</a>
+                            </button>
+                        </li>
+                        <li class="follow-main_nation-item">
+                            <button class="follow-main_nation-btn personal_option-btn">
+                                <a href="">PLAYLIST</a>
+                            </button>
+                        </li>
+                        <li class="follow-main_nation-item">
+                            <button class="follow-main_nation-btn personal_option-btn">
+                                <a href="">NGHỆ SĨ</a>
+                            </button>
+                        </li>
+                        <li class="follow-main_nation-item">
+                            <button class="follow-main_nation-btn personal_option-btn">
+                                <a href="">ALBUM</a>
+                            </button>
+                        </li>
+                        <li class="follow-main_nation-item">
+                            <button class="follow-main_nation-btn personal_option-btn">
+                                <a href="">MV</a>
+                            </button>
+                        </li>
+                        <li class="follow-main_nation-item">
+                            <button class="follow-main_nation-btn personal_option-btn">
+                                <a href="">TẢI LÊN</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                 <!-- update -->
+                 <div class="personal_wrapper">
+                    <div class="personal_list-music">
+                        <h2>Bài Hát</h2>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="personal_btn">
+                        <button class="personal_btn-upload">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            TẢI LÊN
+                        </button>
+                        <button class="personal_btn-playall">
+                            <i class="fas fa-play"></i>
+                            PHÁT TẤT CẢ 
+                        </button>
+                    </div>
+                </div>
+
+                <!-- list-music -->
+                <div class="personal-main_songs">
+                    <div class="personal-main_songs-img">
+                        <img src="./image/bcheard1.png" alt="">
+                    </div>
+                    <div id="personal-list" class="personal-main_songs-list">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer/control music  -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer-title">
+                    <div class="cd">
+                        <div class="footer-title_cd" style="background-image: url('')">
+                        </div>
+                    </div>
+                    <div class="footer-title_name">
+                        <h2 id="name-song">Điều Ngọt Ngào Nhất</h2>
+                        <span id="singer-song">Cao Thái Sơn</span>
+                    </div>
+                    <div class="footer-title_more">
+                        <div class="footer-title_more-add">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div class="footer-title_more-seemore">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-directional">
+                    <div class="footer-directional_container">
+                        <div class="footer-directional_control">
+                            <div id="random-btn" class="footer-directional_control-random pad-15 pad-left-right-10">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div id="prev-btn" class="footer-directional_control-prev pad-15 pad-left-right-10">
+                                <i class="fas fa-step-backward"></i>
+                            </div>
+                            <div id="play-music" class="footer-directional_control-play pad-15 pad-left-right-10">
+                                <i class="fas fa-pause-circle footer-pause"></i>
+                                <i class="fas fa-play icon-play footer-play"></i>
+                            </div>
+                            <div id="next-btn" class="footer-directional_control-next pad-15 pad-left-right-10">
+                                <i class="fas fa-step-forward"></i>
+                            </div>
+                            <div class="footer-directional_control-repeat pad-15 pad-left-right-10">
+                                <i class="fas fa-redo"></i>
+                            </div>
+                        </div>
+                        <input id="directional_progress" class="directional_progress" type="range" value="0" step="1"
+                            min="0" max="100">
+                    </div>
+                </div>
+                <div class="footer-service">
+                    <div class="footer-service-list">
+                        <div class="footer-service_mv pad-10">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="footer-service_karaoke pad-10">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <div class="footer-service_windown pad-10">
+                            <i class="far fa-window-restore"></i>
+                        </div>
+                        <div class="footer-service_volumn pad-10">
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+                        <div class="footer-service_progress pad-10">
+                            <input id="service_progress" class="service_progress" type="range" value="0" step="1"
+                                min="0" max="100">
+                        </div>
+                    </div>
+                    <div class="footer-service_mobile">
+                        <div class="footer-service_mobile-btn">
+                            <button>
+                                <i class="fas fa-dice-six"></i>
+                            </button>
+                        </div>
+                        <div class="footer-service_mobile-volumn footer-service_progress pad-10">
+                            <div class="footer-service_volumn pad-10">
+                                <i class="fas fa-volume-up"></i>
+                            </div>
+                            <input id="service_progress" class="service_progress" type="range" value="0" step="1"
+                                min="0" max="100">
+                            <audio id="audio" src=""></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- model Lib-->
+        <section id="model-menu-lib">
+            <div class="model-menu-lib">
+                <div class="model-menu-lib_title">
+                    <h2>Thư Viện Cá Nhân</h2>
+                    <span>Bạn có thể tùy chỉnh danh sách thư viện cá nhân.</span>
+                </div>
+                <ul class="model-menu-lib_list">
+                    <li class="model-menu-lib_list-item"> <input type="checkbox" />
+                        <img src="./image/thuviencanhan/baihat.png" alt="" />
+                        <span>Bài hát</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/playlist.png" alt="" />
+                        <span>Playlist</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/album.png" alt="" />
+                        <span>Album</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/tailen.png" alt="" />
+                        <span>Nhạc tải lên</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/ganday.png" alt="" />
+                        <span>Gần đây</span>
+                    </li>
+                    <li class="model-menu-lib_list-item">
+                        <input type="checkbox" />
+                        <img src="./image/thuviencanhan/playlistcanhan.png" alt="" />
+                        <span>Playlist cá nhân</span>
+                    </li>
+                </ul>
+                <div class="btn-container">
+                    <button class="btn btn-model-lib_close">ĐÓNG</button>
+                    <button class="btn btn-model-lib_save">LƯU</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- model main slider -->
+        <section class="model-slider_list">
+            <div class="model-slider_list-container">
+                <div class="model-slider_list-title">
+                    <span>Bạn có muốn phát bài hat này? Danh sách phát hiện tại sẽ bị thay thế</span>
+                </div>
+                <div class="model-slider_list-content">
+                    <img src="./image/current2.jpg" alt="">
+                    <h4>Welcome to Show</h4>
+                    <span>B Ray, Great</span>
+                </div>
+                <div class="model-slider_list-btn-container">
+                    <button class="model-slider_list-btn-play">
+                        PHÁT BÀI HÁT
+                    </button>
+                    <button class="model-slider_list-btn-add">THÊM VÀO DANH SÁCH PHÁT</button>
+                    <button class="model-slider_list-btn-close">BỎ QUA</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- model nav-login -->
+        <section id="model-login">
+            <div class="model-login_container">
+
+            </div>
+        </section>
+
+    </div>
+
+
+    <script type="text/javascript" src="./js/jquery-3.0.1.min.js"></script>
+
+    <script type="text/javascript" src="./js/slick.js"></script>
+
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script src="./js/main-choose-slider.js"></script>
+
+    <script>
+        $('.follow-singer').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+        });
+    </script>
+
+    <script src="./js/personal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,329 @@
+#main {
+    width: 100%;
+    padding-top: 110px;
+    background-color: var(--bgmain);
+}
+
+.main-container {
+    max-width: calc(100% - 250px);
+    margin-left: 250px;
+    position: relative;
+}
+
+.main-container.active {
+    max-width: calc(100% - 50px);
+    margin-left: 50px;
+}
+
+
+.main-slider.active {
+    height: 100%;
+    position: relative;
+    margin-left: 50px;
+}
+ 
+.main-slider:hover .btn-slider {
+    display: flex;
+}
+
+.btn-slider {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 120px);
+    display: none;
+}
+
+.btn-slider-next,
+.btn-slider-prev {
+    padding: 15px 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(211, 204, 204, 0.4);
+}
+
+.btn-slider-next:hover,
+.btn-slider-prev:hover {
+    background-color: rgba(211, 204, 204, 0.2);
+
+}
+
+.btn-slider-next i,
+.btn-slider-prev i {
+    color: #fff;
+}
+
+.btn-slider-prev {
+    margin-right: 15px;
+}
+
+.btn-slider-next {
+    margin-left: 15px;
+}
+
+.main-slider-img-container {
+    height: 100%;
+}
+
+.main-slider-img-item {
+    height: 100%;
+    cursor: pointer;
+}
+
+.main-slider-img-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.model-slider_list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    z-index: 1000;
+    display: none;
+}
+
+.model-slider_list-container {
+    background: linear-gradient(
+        45deg,#282828, #6b6868);
+    width: 330px;
+    height: 465px;
+    border-radius: 10px;
+}
+
+.model-slider_list-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.model-slider_list-title span{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.model-slider_list-content {
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.model-slider_list-content img {
+    width: 180px;
+    border-radius: 5px;
+}
+
+.model-slider_list-content h4 {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.model-slider_list-content span {
+    font-size: 1rem;
+    color: rgb(255 255 255 / 45%);
+}
+
+.model-slider_list-btn-container {
+    padding-top: 37px;
+    // max-width: 290px;
+    text-align: center;
+    display: inline-block;
+}
+
+.model-slider_list-btn-play {
+    padding: 5px 95px;
+    border-radius: 17px;
+    border: none;
+    margin-bottom: 8px;
+    background-color: #7200a1;
+    color: #fff;
+    font-size: 600;
+    cursor: pointer;
+}
+
+.model-slider_list-btn-play:hover {
+    opacity: 0.6;
+}
+
+.model-slider_list-btn-add {
+    padding: 5px 46px;
+    border-radius: 17px;
+    border: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.model-slider_list-btn-add:hover {
+    opacity: 0.6;
+}
+
+.model-slider_list-btn-close {
+    padding: 5px 116px;
+    border-radius: 17px;
+    border: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+}
+
+
+
+
+// slick slide
+.clazy-slider button {
+    display: none !important;
+}
+
+.clazy-slider .slick-slide {
+    width: 370px;
+    height: 210px;
+    margin: 0 10px;
+}
+
+.slick-slide > div {
+    height: 100%;
+}
+
+
+// MAIN ADVAN
+.main-advan img{
+    width: 100%;
+    height: 90px;
+}
+
+// Favorite Artist
+.main-music_favorite-list {
+    display: grid;
+    height: 337px;
+    grid-template-columns: repeat(auto-fill, minmax(373px, 1fr));
+    grid-gap: 30px;
+    position: relative;
+}
+
+.main-music_favorite-item {
+    position: relative;
+    background-image: url(/image/likesinger.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-music_favorite-item:hover .main-music_favorite-item-play {
+    display: flex;
+}
+
+.main-music_favorite-item-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-music_favorite-item-title {
+    padding: 0 16px;
+}
+
+.main-music_favorite-item-title span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main-music_favorite-item-title h2{
+    color: #fff;
+    font-weight: 500;
+}
+
+.main-music_favorite-item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(78px, 1fr));
+    grid-gap: 10px;
+    padding: 16px 16px;
+    width: 100%;
+}
+
+
+.main-music_favorite-item-list-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-music_favorite-item-play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+.main-music_favorite-item-play i {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+// footer main
+.main-music_footer {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.main-music_footer-title {
+    margin-bottom: 30px;
+}
+
+.main-music_footer-title h3 {
+    font-size: 1.1rem;
+    color: var(--h3colormain);
+    font-weight: 500;
+}
+
+.main-music_footer-title h3:hover {
+    color: #7954e2;
+    cursor: pointer;
+}
+
+.main-music_footer-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    grid-gap: 20px;
+}
+
+.main-music_footer-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 1036px) {
+    .main-container {
+        max-width: 100%;
+        margin-left: auto;
+        padding: 0 45px 0 95px;
+    }
+}
+
+@media (max-width: 419px) {
+    .discover-main {
+        padding: 0 10px 0 10px;
+    }
+}
